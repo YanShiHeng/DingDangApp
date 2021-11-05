@@ -1,0 +1,87 @@
+/* 顶部 */
+#top {
+    padding-top: 0.32rem;
+    padding-bottom: 0.22rem;
+    font-size: 0.16rem;
+    color: #151515;
+    font-weight: 700;
+    border-bottom: 0.01rem solid #acacac;
+}
+#top div{
+    display: flex;
+}
+#top div a {
+    font-size: 0.16rem;
+    color: #151515;
+    font-weight: 700;
+}
+#top div h1{
+    flex: 1;
+    text-align: center;
+}
+#top div a span {
+    padding-left: 0.16rem;
+}
+
+/* 重磅上线 */
+#HeavyOnline {
+    padding: 0.1rem;
+    padding-bottom: 0.23rem;
+}
+
+#HeavyOnline img {
+    width: 100%;
+}
+
+/* 医生服务 */
+#service {
+    font-size: 0.2rem;
+    font-weight: 700;
+    padding-left: 0.1rem;
+    margin-bottom: 0.14rem;
+}
+
+/* 服务列表 */
+#sernav {
+    display: flex;
+    padding: 0 0.1rem;
+    margin-bottom: 0.1rem;
+    justify-content: space-between;
+}
+
+#sernav>div:first-child {
+    margin-right: 0.05rem;
+
+}
+
+#sernav>div:first-child img {
+
+    width: 100%;
+    height: 100%;
+}
+
+#sernav>div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#sernav>div:last-child img {
+    width: 100%;
+}
+
+#sernav>div:last-child div:last-child {
+    margin-top: 0.1rem;
+}
+
+/* 护士上门 */
+#come{
+    margin-bottom: 0.38rem;
+}
+#come img {
+    width: 100%;
+}
+/* 底部 */
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+}

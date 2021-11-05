@@ -1,0 +1,122 @@
+/* 顶部 */
+#top {
+    background-color: #e94544;
+    padding: 0.24rem 0.15rem 0.1rem;
+}
+
+#top form {
+    display: flex;
+    position: relative;
+}
+
+#top form input {
+    flex: 1;
+    height: 0.3rem;
+    border: 0;
+    border-radius: 0.15rem;
+    font-size: 0.12rem;
+    text-indent: 0.4rem;
+    color: #8f8f8f;
+}
+
+#top form a {
+    display: block;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.16rem;
+}
+
+#top form a span {
+    color: #8f8f8f;
+    font-size: 0.16rem;
+}
+
+/* 主体 */
+/* 轮播 */
+#Rotation img {
+    width: 100%;
+}
+
+/* 功能导航 */
+#funnav {
+    display: flex;
+    margin-top: 0.12rem;
+}
+
+#funnav>div {
+    width: 20%;
+    text-align: center;
+    font-size: 0.13rem;
+}
+
+#funnav>div img {
+    width: 0.42rem;
+    height: 0.42rem;
+}
+
+#funnav>div p {
+    color: #000;
+    margin-top: 0.08rem;
+}
+
+/* 保健专场 */
+#choice img {
+    width: 100%;
+}
+
+/* 药品分类 */
+#kinds {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.08rem;
+}
+
+#kinds>div {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 0.14rem;
+}
+
+#kinds>div img {
+    width: 0.42rem;
+    height: 0.42rem;
+}
+
+
+#kinds>div a p:nth-child(2) {
+    font-size: 0.13rem;
+
+    margin-top: 0.18rem;
+    color: #646464;
+}
+
+#kinds>div a p:nth-child(3) {
+    color: #9a9a9a;
+    font-size: 0.12rem;
+
+}
+/* 公告 */
+#Notice{
+    height: 0.39rem;
+    padding-top: 0.01rem;
+    background-color: #efeff4;
+    text-align: center;
+    margin-bottom: 0.06rem;
+}
+#Notice p{
+    font-size: 0.12rem;
+    color: #ee7171;
+    line-height: 0.28rem;
+    background-color: #fff;
+}
+#Notice p span{
+    display: inline-block;
+    margin-left: 0.15rem;
+}
+/* 底部 */
+#footer>div:nth-child(2) span,
+#footer>div:nth-child(2) p,
+#footer>div:nth-child(2) a{ 
+    text-decoration: none;
+    color: #e94544;
+}

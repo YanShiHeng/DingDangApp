@@ -1,0 +1,128 @@
+/* 顶部 */
+#top {
+    padding-top: 0.32rem;
+    padding-bottom: 0.22rem;
+    font-size: 0.16rem;
+    color: #151515;
+    font-weight: 700;
+    border-bottom: 0.01rem solid #acacac;
+}
+
+#top div {
+    display: flex;
+}
+
+#top div a {
+    font-size: 0.16rem;
+    color: #151515;
+    font-weight: 700;
+}
+
+#top div h1 {
+    flex: 1;
+    text-align: center;
+}
+
+#top div a span {
+    padding-left: 0.16rem;
+}
+
+/* 主体 */
+#main{
+    background-color: #f5f5f5;
+}
+/* 药师 */
+#Pharmacist {
+    padding-top: 0.1rem;
+    padding-left: 0.16rem;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+}
+
+/* #Pharmacist>div{
+    display: flex;
+} */
+.one {
+    display: flex;
+}
+
+.image img {
+    width: 0.56rem;
+    height: 0.56rem;
+}
+
+.intro {
+    margin-left: 0.12rem;
+}
+
+.intro p:first-child {
+    font-size: 0.14rem;
+    margin: 0.08rem 0;
+}
+
+.intro p:last-child {
+    font-size: 0.12rem;
+}
+
+.intro p:last-child span {
+    display: inline-block;
+    margin-left: 0.14rem;
+}
+
+.intro p:first-child span {
+    color: #ffa35c;
+}
+
+.intro p:first-child span:last-child {
+    display: inline-block;
+    margin-left: 0.7rem;
+    color: #c0c0c0;
+}
+
+.tow {
+    font-size: 0.12rem;
+    color: #77c8d7;
+}
+
+.tow p {
+    margin: 0.08rem 0;
+}
+
+#Pharmacist>div:last-child {
+    margin-right: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0;
+    border-top: 0.01rem solid #e0e0e0;
+}
+#Pharmacist>div:last-child   span{
+    display: inline-block;
+    padding: 0.09rem 0.14rem;
+    border: 0.01rem solid #e94544;
+    color: #e94544;
+    font-size: 0.14rem;
+    border-radius: 0.03rem;
+}
+#Pharmacist>div:last-child  a:last-child span{
+    background-color: #e94544;
+    color: #fff;
+}
+/* 右箭头定位 */
+#Pharmacist>div:first-child {
+    position: relative;
+}
+
+#Pharmacist>div:first-child>a {
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 0.09rem;
+    font-size: 0.16rem;
+    color: #a4a3a4;
+}
+
+/* 底部 */
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}

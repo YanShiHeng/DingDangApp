@@ -1,0 +1,174 @@
+/* 顶部 */
+#top {
+    padding-top: 0.3rem;
+    padding-left: 0.14rem;
+    padding-bottom: 0.18rem;
+    background-color: #e9484d;
+}
+
+/* 设置 */
+#set {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.12rem;
+    margin-bottom: 0.24rem;
+}
+
+#set a span {
+    color: #fff;
+    font-size: 0.2rem;
+    text-decoration: none;
+}
+
+/* 登录 */
+#load {
+    display: flex;
+    justify-content: space-between;
+}
+
+#load img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+#load>div:first-child span {
+    padding: 0 0.1rem;
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+#load>div:first-child a {
+    text-decoration: none;
+}
+
+#load>div:last-child {
+    height: 0.26rem;
+    border-top-left-radius: 0.13rem;
+    border-bottom-left-radius: 0.13rem;
+    font-size: 0.12rem;
+    background-color: #f95060;
+    padding-left: 0.15rem;
+    line-height: 0.26rem;
+    margin-top: 0.12rem;
+}
+
+#load>div:last-child a {
+    color: #fff;
+}
+
+#load>div:last-child a span {
+    padding: 0.1rem;
+}
+
+/* 主体 */
+/* 订单 */
+#order {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.14rem 0.1rem;
+    border-bottom: 0.01rem solid #e6e6e6;
+}
+
+#order div:first-child {
+    font-size: 0.16rem;
+    padding-left: 0.1rem;
+    border-left: 0.04rem solid #e94544;
+
+}
+
+#order div:last-child a {
+    font-size: 0.12rem;
+    color: #a6a6a6;
+}
+
+#order div:last-child span {
+    padding-left: 0.07rem;
+}
+
+/* 付款等功能 */
+#funnav {
+    display: flex;
+    padding-top: 0.25rem;
+    margin-bottom: 0.14rem;
+}
+
+#funnav>div {
+    width: 25%;
+    text-align: center;
+}
+
+#funnav>div span {
+    font-size: 0.2rem;
+    color: #8c8c8c;
+
+}
+
+#funnav>div p {
+    font-size: 0.12rem;
+    color: #494949;
+}
+
+/* 常用工具 */
+#commonTools {
+    background-color: #efeff4;
+    padding-top: 0.1rem;
+    padding-bottom: 0.01rem;
+}
+
+#commonTools>div {
+    background-color: #fff;
+    padding: 0.15rem 0;
+    font-size: 0.15rem;
+}
+
+#commonTools>div div {
+    margin-left: 0.1rem;
+    text-indent: 0.5em;
+    border-left: 0.04rem solid #e94544;
+}
+
+/* 工具列表 */
+#toolsList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1.36rem;
+    background-color: #efeff4;
+}
+
+#toolsList>div {
+    width: 25%;
+    text-align: center;
+    padding: 0.15rem 0;
+    background-color: #fff;
+}
+
+#toolsList>div a {
+    text-decoration: none;
+}
+
+#toolsList>div a span {
+    font-size: 0.2rem;
+}
+
+#toolsList>div p {
+    margin-top: 0.1rem;
+    font-size: 0.13rem;
+    color: #383838;
+}
+
+.red {
+    color: #fa7467;
+}
+
+.blue {
+    color: #018fe7;
+}
+
+/* 底部 */
+#footer>div:nth-child(4) span,
+#footer>div:nth-child(4) p,
+#footer>div:nth-child(4) a {
+    text-decoration: none;
+    color: #e94544;
+}

@@ -1,0 +1,292 @@
+/* 轮播图 */
+#Rotation img {
+    width: 100%;
+}
+
+/* 功能导航 */
+#funnav {
+    display: flex;
+    margin-top: 0.08rem;
+}
+
+#funnav>div {
+    width: 20%;
+    text-align: center;
+}
+
+#funnav>div a img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+#funnav>div a {
+    text-decoration: none;
+
+}
+
+#funnav>div a p {
+    font-size: 0.12rem;
+    color: #464646;
+}
+
+/* 全球精选 */
+#choice img {
+    width: 100%;
+}
+
+/* 公告 */
+#Notice a {
+    font-size: 0.14rem;
+    text-decoration: none;
+}
+
+#Notice a p {
+    padding-left: 0.16rem;
+    color: #464646;
+}
+
+#Notice a p span {
+    color: #e94544;
+    font-weight: 700;
+}
+
+/* 快送服务 */
+#send {
+    margin: 0 0.1rem;
+    display: flex;
+    padding: 0.14rem 0.1rem;
+    justify-content: space-between;
+    background-color: #fff8ee;
+    border-radius: 0.05rem;
+    margin-top: 0.08rem;
+    margin-bottom: 0.18rem;
+}
+
+#send>div {
+    color: #e94544;
+}
+
+#send>div span {
+    font-size: 0.12rem;
+}
+
+/* 商品快送 */
+#spfast {
+    display: flex;
+    padding-left: 0.1rem;
+    /* flex: 1; */
+    justify-content: space-between;
+    margin-bottom: 0.28rem;
+}
+
+#spfast>div {
+    width: 1.74rem;
+    height: 0.72rem;
+    display: flex;
+    justify-content: center;
+}
+
+#spfast>div a {
+    display: block;
+}
+
+#spfast>div div:first-child {
+    margin-right: 0.2rem;
+}
+
+#spfast>div div:first-child a:first-child {
+    display: block;
+    padding-left: 0.04rem;
+    background-color: #fe5961;
+    border-top-left-radius: 0.05rem;
+    border-bottom-right-radius: 0.05rem;
+    color: #fff;
+    font-size: 0.12rem;
+}
+
+#spfast>div div:first-child a:nth-child(2) {
+    font-size: 0.14rem;
+    color: #343434;
+    padding-left: 0.14rem;
+}
+
+#spfast>div div:first-child a:nth-child(3) {
+    color: #8f8f8f;
+    font-size: 0.12rem;
+    padding-left: 0.14rem;
+
+}
+
+#spfast>div div:last-child a {
+    width: 0.47rem;
+    height: 0.6rem;
+}
+
+#spfast>div div:last-child img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 红包定位 */
+#redEnvelopes {
+    width: 0.5rem;
+    height: 0.7rem;
+    position: fixed;
+    right: 0.1rem;
+    top: 50%;
+}
+
+#redEnvelopes img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 药品分类 */
+#kinds {
+    margin: 0 0.28rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kinds>div {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+#kinds>div img {
+    width: 0.37rem;
+    height: 0.37rem;
+}
+
+#kinds>div p {
+    font-size: 0.13rem;
+    color: #585a5a;
+}
+
+/* 产品推送 */
+#Productpush {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.1rem;
+    border-top: 0.01rem solid #efeff4;
+    padding-top: 0.14rem;
+    margin-bottom: 0.16rem;
+}
+
+#Productpush>div a {
+    display: block;
+    display: flex;
+}
+
+#Productpush>div a div:first-child img {
+    width: 1.28rem;
+    height: 1.26rem;
+}
+
+#Productpush>div a div:last-child {
+    margin-bottom: 0.12rem;
+}
+
+#tow {
+    margin-left: 0.12rem;
+}
+
+#tow h1 {
+    font-size: 0.14rem;
+    font-weight: 700;
+    color: #000;
+}
+
+#tow h1 span {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.16rem;
+    line-height: 0.16rem;
+    font-size: 0.12rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.03rem;
+    background-color: #ff5a5f;
+    font-weight: normal;
+}
+
+#tow p {
+    color: #888888;
+    font-size: 0.12rem;
+    text-indent: 0.5em;
+}
+
+#tow .bd {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.08rem 0;
+}
+
+#tow .bd span {
+    padding: 0.03rem 0.05rem;
+    font-size: 0.12rem;
+    border: 0.01rem solid #e94645;
+    color: #e94645;
+    border-radius: 0.03rem;
+}
+
+#tow .price {
+    height: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.price div:first-child span:last-child {
+    font-size: 0.12rem;
+    color: #8f8f8f;
+    text-decoration: line-through;
+}
+
+.price div:first-child span:first-child {
+    font-size: 0.14rem;
+    color: #e94544;
+    text-decoration: none;
+}
+
+.price div:last-child {
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e94544;
+    color: #fff;
+}
+
+#Productpush>div:last-child #tow .bd {
+    display: flex;
+    justify-content: start;
+}
+
+#Productpush>div:last-child #tow .bd span {
+    margin-right: 0.05rem;
+}
+
+.price div:last-child span {
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+
+/* 定坤丹 */
+#fakeMedicine {
+    margin-bottom: 0.1rem;
+
+}
+
+#fakeMedicine img {
+    width: 100%;
+}
+
+/* 底部 */
+#footer>div:nth-child(1) span,
+#footer>div:nth-child(1) p,
+#footer>div:nth-child(1) a {
+    text-decoration: none;
+    color: #e94544;
+}

@@ -1,0 +1,141 @@
+/* 上下固定 中间自适应 */
+/* 要把页面分为顶部head 主体main 底部footer三部分！！  */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    flex: 1;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none !important;
+}
+/* 顶部 */
+#header {
+    /* flex: 1; */
+    height: 0.84rem;
+    padding: 0.15rem;
+    padding-bottom: 0.1rem;
+    background-color: #e94544;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 地址 */
+#address {
+    width: 3.45rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#address a {
+    display: block;
+    width: 2.95rem;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#address>a span {
+    font-size: 0.14rem;
+}
+
+#address a:nth-child(2) {
+    display: block;
+    width: 0.28rem;
+    font-size: 0.14rem;
+    text-align: center;
+    color: #fff;
+}
+
+#address a:nth-child(3) {
+    display: block;
+    width: 0.2rem;
+    color: #fff;
+}
+
+#address a:nth-child(3) span {
+    font-size: 0.2rem;
+
+}
+
+/* 搜索 */
+#search {
+    flex: 1;
+    height: 0.3rem;
+    display: flex;
+    position: relative;
+    margin-top: 0.16rem;
+}
+
+#search form {
+    display: flex;
+    flex: 1;
+}
+
+#search input {
+    /* width: 3.45rem; */
+    flex: 1;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    font-size: 0.14rem;
+    color: #b0b0b0;
+    border: 0;
+    text-indent: 0.35rem;
+}
+
+#search a:nth-child(2) {
+    color: #b0b0b0;
+    position: absolute;
+    left: 0.12rem;
+    top: 0.04rem;
+}
+
+#search a:nth-child(2) span {
+    font-size: 0.2rem;
+}
+
+#search a:nth-child(3) {
+    color: #eb5d5c;
+    position: absolute;
+    right: 0.13rem;
+    top: 0.04rem;
+}
+
+#search a:nth-child(3) span {
+    font-size: 0.2rem;
+}
+
+/* 底部 */
+#footer{
+    display: flex;
+    padding: 0.05rem 0;
+    border-top: 0.01rem solid #dddddd;
+    justify-content: space-between;
+}
+#footer>div{
+    width: 25%;
+    text-align: center;
+}
+#footer>div a{
+    text-decoration: none;
+}
+#footer>div span{
+    font-size: 0.2rem;
+    color: #85888d;
+}
+#footer>div p{
+    color: #8a8e94;
+    font-size: 0.12rem;
+}
